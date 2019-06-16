@@ -1,0 +1,54 @@
+.nav {
+    color: #000;
+    font-family: Sans-Serif;
+    font-size:16px;
+    font-weight: bold;
+    line-height:20px;
+    padding-left:0px;
+}
+
+.nav a{
+    color: #inherit;
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.nav {
+    list-style-types:none;
+}
+
+.nav li > ul {
+    background: #ddd;
+    display: none;
+    left: 0;
+    margin-left: 0;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    width: 200px;
+}
+
+.nav ul >li {
+    width: 190px;
+}
+
+.nav li.selected, .nav li.ancestor{
+    background: hsl(205, 80%, 80%);
+}
+
+.nav li:hover{
+    background: hsl(205, 80%, 80%);
+}
+
+.nav li:hover > a {
+    color: #fff;
+}
+
+.nav li:hover ul{
+    display: block;
+}
