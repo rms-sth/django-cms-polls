@@ -39,7 +39,7 @@ html5lib==1.0.1
 lxml==4.3.4
 phonenumbers==8.10.13
 phonenumberslite==8.10.13
-Pillow==6.0.0
+Pillow==9.3.0
 python-dateutil==2.8.0
 python-slugify==3.0.2
 pytz==2019.1
